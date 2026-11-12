@@ -3,7 +3,7 @@ const visuals = {
   signals: `<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustrative signal traces"><rect width="700" height="400" fill="#e1e8f6"/><defs><pattern id="sg" width="35" height="35" patternUnits="userSpaceOnUse"><path d="M35 0H0V35" fill="none" stroke="#c8d2e8" stroke-width=".6"/></pattern></defs><rect width="700" height="400" fill="url(#sg)"/><g fill="none" stroke-linejoin="round"><path d="M60 210L95 210 110 190 120 240 140 110 152 290 169 172 182 219 200 200 230 205 250 190 265 235 279 160 294 260 309 185 329 215 350 200 375 203 391 198 405 210 419 190 435 220 450 195 466 205 490 200 640 200" stroke="#8d9dbb" stroke-width="1.5"/><path d="M60 205C120 205 120 150 160 150S200 265 240 265 290 170 330 170 380 225 420 225 460 190 500 190 570 205 640 205" stroke="#2849dc" stroke-width="3"/></g><g font-family="Arial, sans-serif" font-size="9" fill="#657492"><text x="60" y="335">00:00</text><text x="330" y="335">Time</text><text x="604" y="335">00:60</text><text x="60" y="65">Input / response</text><text x="522" y="65">Synthetic signal</text></g><circle cx="330" cy="170" r="6" fill="#2849dc" stroke="#e1e8f6" stroke-width="3"/></svg>`,
   structure: `<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustrative search network"><rect width="700" height="400" fill="#dce5f5"/><g stroke="#9eafd0" stroke-width="2" fill="none"><path d="M100 240 220 115 340 205 470 100 600 190 490 300 340 205 240 310 100 240M220 115 240 310M220 115 470 100M240 310 490 300M340 205 600 190"/></g><g stroke="#2849dc" stroke-width="3" fill="none"><path d="M100 240 220 115 340 205 600 190" stroke-dasharray="6 5"/></g><g fill="#f9fbff" stroke="#6e86b5" stroke-width="2"><circle cx="100" cy="240" r="17"/><circle cx="220" cy="115" r="17"/><circle cx="340" cy="205" r="17"/><circle cx="470" cy="100" r="17"/><circle cx="600" cy="190" r="17"/><circle cx="490" cy="300" r="17"/><circle cx="240" cy="310" r="17"/></g><g font-family="Arial,sans-serif" font-size="12" text-anchor="middle" fill="#526a92"><text x="100" y="245">A</text><text x="220" y="120">B</text><text x="340" y="210">C</text><text x="470" y="105">D</text><text x="600" y="195">E</text><text x="490" y="305">F</text><text x="240" y="315">G</text></g><g font-family="Arial,sans-serif" font-size="10" fill="#657492"><text x="40" y="55">Generated network concept</text><text x="40" y="365">Illustrative connections only</text></g></svg>`,
   thermal: `<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Decorative classification matrix, not computed results"><rect width="700" height="400" fill="#e5e3ed"/><g transform="translate(234 63)"><g fill="#d5d9ee"><rect x="0" y="0" width="55" height="55" rx="3"/><rect x="60" y="60" width="55" height="55" rx="3"/><rect x="120" y="120" width="55" height="55" rx="3"/><rect x="180" y="180" width="55" height="55" rx="3"/></g><g fill="#798cce"><rect x="0" y="0" width="55" height="55" rx="3"/><rect x="60" y="60" width="55" height="55" rx="3"/><rect x="120" y="120" width="55" height="55" rx="3"/><rect x="180" y="180" width="55" height="55" rx="3"/></g><g fill="#c9cbe1"><rect x="60" y="0" width="55" height="55" rx="3"/><rect x="120" y="0" width="55" height="55" rx="3"/><rect x="180" y="0" width="55" height="55" rx="3"/><rect x="0" y="60" width="55" height="55" rx="3"/><rect x="120" y="60" width="55" height="55" rx="3"/><rect x="180" y="60" width="55" height="55" rx="3"/><rect x="0" y="120" width="55" height="55" rx="3"/><rect x="60" y="120" width="55" height="55" rx="3"/><rect x="180" y="120" width="55" height="55" rx="3"/><rect x="0" y="180" width="55" height="55" rx="3"/><rect x="60" y="180" width="55" height="55" rx="3"/><rect x="120" y="180" width="55" height="55" rx="3"/></g><g font-family="Arial,sans-serif" font-size="11" fill="#657492" text-anchor="middle"><text x="27" y="258">A</text><text x="87" y="258">B</text><text x="147" y="258">C</text><text x="207" y="258">D</text><text x="-17" y="32">A</text><text x="-17" y="92">B</text><text x="-17" y="152">C</text><text x="-17" y="212">D</text></g></g><g font-family="Arial,sans-serif" font-size="10" fill="#657492"><text x="40" y="45">Classification concept</text><text x="40" y="365">Decorative matrix / no model results</text></g></svg>`,
-  data: `<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustrative content workflow"><rect width="700" height="400" fill="#e2e9f6"/><g stroke="#a8b9d8" stroke-width="1.5" fill="none"><path d="M155 202H220M290 202H355M425 202H490"/><path d="m211 197 9 5-9 5m135-10 9 5-9 5m135-10 9 5-9 5"/></g><g fill="#f9fbff" stroke="#c4d2e9"><rect x="65" y="145" width="90" height="114" rx="7"/><rect x="220" y="145" width="90" height="114" rx="7"/><rect x="375" y="145" width="90" height="114" rx="7"/><rect x="530" y="145" width="90" height="114" rx="7"/></g><g stroke="#a5b7d9" stroke-width="3"><path d="M84 168h48m-48 12h39m-39 12h46M239 168h48m-48 12h39m-39 12h46M394 168h48m-48 12h39m-39 12h46M549 168h48m-48 12h39m-39 12h46"/></g><g fill="#2849dc"><circle cx="132" cy="236" r="7"/><circle cx="287" cy="236" r="7"/><circle cx="442" cy="236" r="7"/><circle cx="597" cy="236" r="7"/></g><g font-family="Arial,sans-serif" fill="#536b93" font-size="12" text-anchor="middle"><text x="110" y="290">Sample input</text><text x="265" y="290">Draft</text><text x="420" y="290">Checks</text><text x="575" y="290">Human review</text></g><g font-family="Arial,sans-serif" font-size="10" fill="#657492"><text x="40" y="55">Proposed content workflow</text><text x="40" y="365">Illustration only / no deployed system</text></g></svg>`
+  data: `<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustrative content workflow"><rect width="700" height="400" fill="#e2e9f6"/><g stroke="#a8b9d8" stroke-width="1.5" fill="none"><path d="M155 202H220M290 202H355M425 202H490"/><path d="m211 197 9 5-9 5m135-10 9 5-9 5m135-10 9 5-9 5"/></g><g fill="#f9fbff" stroke="#c4d2e9"><rect x="65" y="145" width="90" height="114" rx="7"/><rect x="220" y="145" width="90" height="114" rx="7"/><rect x="375" y="145" width="90" height="114" rx="7"/><rect x="530" y="145" width="90" height="114" rx="7"/></g><g stroke="#a5b7d9" stroke-width="3"><path d="M84 168h48m-48 12h39m-39 12h46M239 168h48m-48 12h39m-39 12h46M394 168h48m-48 12h39m-39 12h46M549 168h48m-48 12h39m-39 12h46"/></g><g fill="#2849dc"><circle cx="132" cy="236" r="7"/><circle cx="287" cy="236" r="7"/><circle cx="442" cy="236" r="7"/><circle cx="597" cy="236" r="7"/></g><g font-family="Arial,sans-serif" fill="#536b93" font-size="12" text-anchor="middle"><text x="110" y="290">Sample input</text><text x="265" y="290">Draft</text><text x="420" y="290">Checks</text><text x="575" y="290">Human review</text></g><g font-family="Arial,sans-serif" font-size="10" fill="#657492"><text x="40" y="55">Illustrative content workflow</text><text x="40" y="365">Illustration only / no internal content</text></g></svg>`
 };
 
 // Academic entries are grounded in public notebooks; applied entries remain concepts.
@@ -26,24 +26,28 @@ const projects = [
     "image": "assets/composer-piano-rolls.png",
     "imageAlt": "Saved notebook figure showing piano-roll inputs for Bach, Beethoven, Chopin, and Mozart.",
     "imageCaption": "Sample piano-roll inputs from the published notebook.",
-    "description": "Turning 1,653 MIDI scores into sequence and piano-roll inputs for LSTM/CNN composer attribution.",
+    "description": "A data pipeline for predicting Bach, Beethoven, Chopin, and Mozart from MIDI music, using note sequences and piano-roll images.",
     "repo": "https://github.com/n8butcher-debug/aai511-composer-classification",
     "sections": [
       [
-        "The question",
-        "Can a model identify Bach, Beethoven, Chopin, or Mozart from a musical score? The project explores two ways to represent music: sequences of note events and piano-roll images."
+        "Goal",
+        "Predict the composer of a classical MIDI score using an LSTM for note sequences and a CNN for piano-roll images."
       ],
       [
-        "What’s implemented",
+        "Completed pipeline",
         "The notebook parses 1,653 MIDI pieces, splits them by piece before segmentation, and builds 100-note sequences and 88-key piano rolls. Pitch transposition augments the under-represented Chopin training examples."
       ],
       [
-        "Current scope",
+        "Current stage",
         "Data collection, preparation, and feature extraction have saved outputs. LSTM/CNN model construction, training, and final evaluation remain a roadmap in the published notebook."
       ]
     ],
-    "provenance": "Based on the published notebook. The figure is a saved output; the pipeline was not rerun for this portfolio.",
-    "thumbnail": "composerCover"
+    "provenance": "The published notebook includes the preparation pipeline and saved feature outputs.",
+    "thumbnail": "composerCover",
+    "outcome": {
+      "headline": "1,653 MIDI pieces prepared",
+      "detail": "Two input formats for four composers. Model training is next."
+    }
   },
   {
     "id": "ad-click-prediction",
@@ -58,46 +62,60 @@ const projects = [
     "image": "assets/ad-click-features.png",
     "imageAlt": "Saved feature importance chart showing daily internet usage and time on site as the strongest features in this notebook.",
     "imageCaption": "Permutation feature importance from the saved notebook run.",
-    "description": "Testing neural networks against logistic regression and random forests on 1,000 advertising records, then tracing predictions back to browsing behavior.",
+    "description": "Neural-network classifiers compared with logistic regression and a random forest on 1,000 advertising records.",
     "repo": "https://github.com/n8butcher-debug/NN-for-Advertising-Data",
     "sections": [
       [
-        "The question",
+        "Goal",
         "Can browsing and visitor attributes help predict an ad click? The dataset has 1,000 rows, with an equal balance of clicks and non-clicks."
       ],
       [
-        "The method",
+        "Method",
         "The notebook creates eight input features, uses a stratified 80/20 train/test split, and fits scaling on the training rows. Three neural-network configurations are compared with logistic regression and a random forest."
       ],
       [
-        "The saved results",
-        "The selected ANN reports 97% accuracy and 0.9927 ROC AUC on 200 test rows. Logistic regression reaches 98% accuracy, showing that a simpler baseline remains competitive."
+        "Results",
+        "The selected ANN reaches 97% accuracy and 0.9927 ROC AUC on 200 test rows. Logistic regression reaches 98% accuracy, so the neural network does not outperform the simpler model on this split."
       ],
       [
-        "What I’d check next",
+        "Evaluation limits",
         "Several configurations are compared on the same test split. A separate model-selection process and a fresh holdout would give a stronger estimate of generalization."
       ]
     ],
-    "provenance": "Academic project. Metrics and the figure come from checked-in notebook outputs, not a new training run.",
-    "thumbnail": "advertisingCover"
+    "provenance": "Results and the feature-importance figure are saved outputs in the linked notebook.",
+    "thumbnail": "advertisingCover",
+    "outcome": {
+      "headline": "97% neural-network test accuracy",
+      "detail": "200 test records; logistic regression reached 98%."
+    }
   },
   {
     "id": "campaign-response",
-    "title": "Machine Learning for Campaign Response Prediction",
+    "title": "Machine Learning for Campaign Performance",
     "category": "work",
     "kind": "Work project",
     "tags": [
       "Machine learning",
-      "Python",
-      "Evaluation"
+      "Marketing analytics",
+      "Subject-line optimization"
     ],
     "visual": "signals",
-    "description": "A concept study using synthetic campaign data to distinguish repeatable engagement patterns from noisy measurements.",
-    "question": "Fictional brief: explore how synthetic engagement signals might relate to campaign response, without using real customer or employer records.",
-    "method": "Proposed approach: establish a simple baseline, separate training and evaluation records, and check for leakage before comparing models.",
-    "evidence": "Preview only. The signal graphic is decorative. No model has been trained and no performance result is claimed.",
-    "next": "Replace this concept with a documented analysis, actual evaluation outputs, and a clear explanation of how the synthetic data was generated.",
-    "provenance": "Work project placeholder. It is not an Edwards Lifesciences project or a description of completed work."
+    "description": "Machine learning for subject-line optimization and connecting email and campaign performance to revenue outcomes.",
+    "provenance": "Work overview. The graphic is illustrative; employer data and internal implementation details are omitted.",
+    "outcome": {
+      "headline": "Campaign performance models in use",
+      "detail": "Support content, channel, and investment decisions."
+    },
+    "sections": [
+      [
+        "Work delivered",
+        "Built marketing performance models and lead global machine-learning initiatives for email and campaigns, including subject-line optimization."
+      ],
+      [
+        "How the models are used",
+        "The models connect campaign metrics to revenue outcomes and guide decisions about content, channels, and marketing investment."
+      ]
+    ]
   },
   {
     "id": "leaf-classification",
@@ -112,45 +130,63 @@ const projects = [
     "image": "assets/flavia-leaves.png",
     "imageAlt": "Sample leaf images and plant-species labels from the saved Flavia classification notebook.",
     "imageCaption": "Dataset samples displayed in the published notebook.",
-    "description": "Training a CNN to recognize 32 plant species, then examining per-class performance and misclassified images to see where it breaks down.",
+    "description": "A convolutional neural network trained to identify 32 plant species from leaf images, with an analysis of the classes it confuses.",
     "repo": "https://github.com/n8butcher-debug/Flavia-Plant-Image-Classification-CNN",
     "sections": [
       [
-        "The question",
+        "Goal",
         "Can a convolutional neural network distinguish 32 plant species using leaf images from the Flavia dataset?"
       ],
       [
-        "The method",
+        "Method",
         "Images are resized to 128 × 128, converted to grayscale, and normalized. A stratified 70/15/15 split separates training, validation, and test data. Training uses light augmentation, early stopping, and learning-rate reduction."
       ],
       [
-        "The saved results",
+        "Results",
         "The notebook reports 255 correct predictions from 287 test images: 88.85% accuracy and a macro F1 score of 0.8835. The best validation accuracy is 89.16%."
       ],
       [
-        "Where it struggles",
+        "Errors",
         "Chinese cinnamon has only 25% recall in the saved analysis. More examples or targeted augmentation for weaker classes would be useful follow-up work; the results apply to this dataset and split."
       ]
     ],
-    "provenance": "Academic project. The image and evaluation values come from saved notebook outputs; the model was not retrained for this site.",
-    "thumbnail": "plantCover"
+    "provenance": "Results and leaf images are saved outputs in the linked notebook.",
+    "thumbnail": "plantCover",
+    "outcome": {
+      "headline": "88.85% test accuracy",
+      "detail": "255 of 287 leaf images classified correctly across 32 species."
+    }
   },
   {
     "id": "content-workflow",
-    "title": "LLM Content Localization Pipeline",
+    "title": "AI Content Localization Pipeline",
     "category": "work",
     "kind": "Work project",
     "tags": [
-      "LLM applications",
-      "Automation",
-      "Human review"
+      "Content localization",
+      "AI automation",
+      "Global rollout"
     ],
     "visual": "data",
-    "description": "A concept for drafting localized content, checking terminology, and routing changes through human approval.",
-    "question": "Fictional brief: explore a repeatable way to adapt synthetic source content while keeping a person responsible for review and approval.",
-    "method": "Proposed approach: separate input preparation, draft generation, terminology checks, and human review, with clear records of changes.",
-    "evidence": "Preview only. The workflow is an illustrative proposal. No system has been deployed and no time, cost, or quality improvement is claimed.",
-    "next": "Replace this concept with a working demonstration, test inputs, and documented checks for accuracy and consistency.",
-    "provenance": "Illustrative exploration, not a reconstruction of an employer system. It contains no employer data or measured business results."
+    "description": "An AI system for localizing marketing content, built and scaled for global use.",
+    "provenance": "Work overview. The workflow graphic is illustrative; employer content and internal implementation details are omitted.",
+    "outcome": {
+      "headline": "5 months to 1 week",
+      "detail": "Localization cycle time; cost per asset fell by more than 80%."
+    },
+    "sections": [
+      [
+        "Work delivered",
+        "Built and scaled an AI-powered content localization system for global marketing."
+      ],
+      [
+        "Results",
+        "Localization cycle time fell from five months to one week, with an 80%+ reduction in cost per asset and 40 hours saved per campaign."
+      ],
+      [
+        "Adoption",
+        "The system reached near-100% global adoption."
+      ]
+    ]
   }
 ];
