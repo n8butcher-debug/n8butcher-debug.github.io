@@ -100,20 +100,28 @@ const projects = [
       "Subject-line optimization"
     ],
     "visual": "signals",
-    "description": "Machine learning for subject-line optimization and connecting email and campaign performance to revenue outcomes.",
-    "provenance": "Work overview. The graphic is illustrative; employer data and internal implementation details are omitted.",
+    "description": "Built machine-learning models for email subject-line optimization and campaign analysis, connecting performance metrics to revenue outcomes.",
+    "provenance": "Work overview. The signal plot is illustrative and contains no employer data or measured model scores.",
     "outcome": {
       "headline": "Campaign performance models in use",
       "detail": "Support content, channel, and investment decisions."
     },
     "sections": [
       [
-        "Work delivered",
-        "Built marketing performance models and lead global machine-learning initiatives for email and campaigns, including subject-line optimization."
+        "What I built",
+        "Machine-learning models for subject-line optimization and marketing performance analysis. The work connects email and campaign performance metrics to revenue outcomes and supports decisions about content, channels, and investment."
       ],
       [
-        "How the models are used",
-        "The models connect campaign metrics to revenue outcomes and guide decisions about content, channels, and marketing investment."
+        "Data and model outputs",
+        "Email and campaign performance data provide the marketing signals. The models help evaluate subject-line performance and connect campaign activity with revenue outcomes. Their outputs feed content, channel, and budget planning."
+      ],
+      [
+        "Product delivery",
+        "I owned internal AI-tool delivery from problem definition and requirements through pilot, launch, and iteration. This included user stories, acceptance criteria, success metrics, and rollout plans with technical and regional stakeholders."
+      ],
+      [
+        "Use in practice",
+        "The models guide marketing decisions. Performance measurement, responsible-use standards, and adoption planning are part of the broader AI and MarTech program I lead."
       ]
     ]
   },
@@ -168,24 +176,28 @@ const projects = [
       "Global rollout"
     ],
     "visual": "data",
-    "description": "An AI system for localizing marketing content, built and scaled for global use.",
-    "provenance": "Work overview. The workflow graphic is illustrative; employer content and internal implementation details are omitted.",
+    "description": "Engineered an AI-powered localization workflow that replaced manual handoffs between product managers, design agencies, and translation vendors.",
+    "provenance": "Work overview. The workflow diagram is illustrative and contains no employer content.",
     "outcome": {
       "headline": "5 months to 1 week",
       "detail": "Localization cycle time; cost per asset fell by more than 80%."
     },
     "sections": [
       [
-        "Work delivered",
-        "Built and scaled an AI-powered content localization system for global marketing."
+        "What I built",
+        "An AI-powered system for adapting marketing content for global regions. It replaced a localization process that depended on manual handoffs across product managers, design agencies, and translation vendors."
+      ],
+      [
+        "Workflow and delivery",
+        "I mapped the existing process, defined requirements and acceptance criteria, and engineered the replacement workflow. Delivery covered pilot, launch, and iteration, with training, documentation, and playbooks for regional users."
+      ],
+      [
+        "Measurement system",
+        "I built a before-and-after measurement system to track cycle time, cost per asset, campaign hours saved, and adoption. Cycle time and cost measure the operational change; adoption shows whether the workflow became part of regular use."
       ],
       [
         "Results",
-        "Localization cycle time fell from five months to one week, with an 80%+ reduction in cost per asset and 40 hours saved per campaign."
-      ],
-      [
-        "Adoption",
-        "The system reached near-100% global adoption."
+        "Localization cycle time fell from five months to one week. Cost per asset decreased by more than 80%, with 40 hours saved per campaign and near-100% global adoption."
       ]
     ]
   }
