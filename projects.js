@@ -204,5 +204,43 @@ const projects = [
       ]
     ],
     "provenance": "Project scope and findings are described by the portfolio owner."
+  },
+  {
+    "id": "headline-prediction",
+    "title": "Machine Learning for Email and Search Headlines",
+    "category": "work",
+    "kind": "Work project",
+    "tags": [
+      "Text features",
+      "Rate prediction",
+      "Interactive feedback"
+    ],
+    "image": "assets/copy-prediction.svg",
+    "imageAlt": "Draft email and search copy linked to rate predictions.",
+    "demo": "copy",
+    "description": "Built an app that predicts email open rates and search click rates from draft copy, with feedback that updates as marketers edit.",
+    "outcome": {
+      "headline": "Feedback before a campaign goes live",
+      "detail": "Marketers could revise a line and immediately see the updated rate estimate and copy feedback."
+    },
+    "sections": [
+      [
+        "Historical campaign data",
+        "The app used historical email subject lines and email metadata to predict open rates. A corresponding workflow used Google Search headlines and click-rate data."
+      ],
+      [
+        "Features used",
+        "Inputs included the words used, line length, branded terms, numbers, time of day, and day of the week. These combined characteristics of the copy with the context in which it would run."
+      ],
+      [
+        "The marketer workflow",
+        "A marketer could type a draft, get a predicted rate, and adjust the wording in real time. Feedback highlighted what looked useful or problematic so they could refine the line before launch."
+      ],
+      [
+        "Email and search",
+        "The email workflow predicted open rate; the search-headline workflow predicted click rate. Both put the estimate and feedback beside the editable copy so marketers could compare revisions immediately."
+      ]
+    ],
+    "provenance": "The public demo uses synthetic examples and illustrative scoring to show the editing workflow."
   }
 ];

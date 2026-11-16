@@ -7,6 +7,7 @@ Personal portfolio with academic projects, work-project overviews, and an intera
 - `index.html`: background, education, contact details, and page structure.
 - `projects.js`: project summaries, visible outcomes, source links, and diagram thumbnails.
 - `sales-demo.js`: the synthetic sales-account illustration and interactive filters.
+- `copy-demo.js`: editable email and search copy with illustrative rate predictions and feedback.
 - `portrait.js`: portrait contours, scan replay, and pointer-driven depth.
 - `styles.css`: typography, color, and responsive layout.
 - `assets/`: saved notebook figures and illustrative project artwork.
@@ -20,5 +21,7 @@ The sales project illustrates source data flowing through Snowflake and an API t
 Synthetic accounts have distinct activity mixes, dates, assets, and volumes. Channel totals count views, email opens, and clicks from the visible records, respecting the account, doctor, and channel filters. Downloads and video plays remain separate actions in the history.
 
 The campaign ROI case study describes marketing/revenue features from the owner's Snowflake pipeline, regression and tree model ensembles, adjusted comparisons, and owner-reported findings of roughly 30–40× returns and 95% of measured return from accounts below 60% share. `roi-demo.js` provides a simple visual summary of reported returns and the account-share finding.
+
+The headline prediction app uses the owner's description of historical email subjects, search headlines, rate targets, and metadata features. The interactive public demo uses synthetic scoring rules to illustrate real-time copy editing, metadata changes, and feedback. It does not run the original trained model or use employer data.
 
 The portrait settles at 70% photo / 30% image features. The scan position is mapped to the facial region; the sampled feature view uses softened contours and suppressed mouth detail.
