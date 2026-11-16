@@ -79,3 +79,5 @@ dialog{width:min(930px,94vw);max-height:90vh;background:white;border:0;border-ra
 .portrait-controls input:focus-visible{outline-color:white}
 
 .portrait-subject{top:4%;bottom:auto;left:-6px;right:auto;width:calc(100% + 12px);height:calc(100% + 24px)}@media(max-width:480px){.portrait-subject{top:9%;bottom:auto;left:-40px;right:auto;width:calc(100% + 80px);height:calc(100% - 25px)}}
+
+#hero-title{font-size:clamp(46px,5.7vw,88px);line-height:1.06}@media(max-width:1050px){#hero-title{font-size:clamp(42px,5.4vw,64px)}}@media(max-width:760px){#hero-title{font-size:clamp(48px,9vw,70px)}}@media(max-width:480px){#hero-title{font-size:clamp(42px,11.6vw,56px)}}
