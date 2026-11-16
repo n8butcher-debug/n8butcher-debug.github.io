@@ -168,39 +168,41 @@ const projects = [
     }
   },
   {
-    "id": "content-workflow",
-    "title": "AI Content Localization Pipeline",
+    "id": "campaign-roi",
+    "title": "Machine Learning for Campaign ROI Analysis",
     "category": "work",
     "kind": "Work project",
     "tags": [
-      "Content localization",
-      "AI automation",
-      "Global rollout"
+      "Snowflake",
+      "Model ensembles",
+      "Adjusted comparisons"
     ],
-    "visual": "data",
-    "description": "Engineered an AI-powered localization workflow that replaced manual handoffs between product managers, design agencies, and translation vendors.",
-    "provenance": "Work overview. The workflow diagram is illustrative and contains no employer content.",
+    "image": "assets/campaign-roi.svg",
+    "imageAlt": "Marketing and revenue data connected to an ensemble of models, with campaign returns and account-share findings.",
+    "demo": "roi",
+    "description": "Used marketing and revenue data from my Snowflake pipeline to estimate campaign returns and prioritize campaign spending.",
     "outcome": {
-      "headline": "5 months to 1 week",
-      "detail": "Localization cycle time; cost per asset fell by more than 80%."
+      "headline": "95% of measured return from accounts below 60% share",
+      "detail": "The findings supported more marketing funding and a change in audience allocation."
     },
     "sections": [
       [
-        "What I built",
-        "An AI-powered system for adapting marketing content for global regions. It replaced a localization process that depended on manual handoffs across product managers, design agencies, and translation vendors."
+        "Data and features",
+        "I reused the Snowflake pipeline I built to connect marketing activity with revenue data. Views, clicks, web visits, and other engagement metrics became features for revenue prediction and campaign return analysis."
       ],
       [
-        "Workflow and delivery",
-        "I mapped the existing process, defined requirements and acceptance criteria, and engineered the replacement workflow. Delivery covered pilot, launch, and iteration, with training, documentation, and playbooks for regional users."
+        "Models and adjusted analyses",
+        "I combined tree-based models with simpler regressions in an ensemble. Alongside the predictive models, I ran difference-based analyses with adjustments for seasonality, number of doctors, account size, and other account characteristics."
       ],
       [
-        "Measurement system",
-        "I built a before-and-after measurement system to track cycle time, cost per asset, campaign hours saved, and adoption. Cycle time and cost measure the operational change; adoption shows whether the workflow became part of regular use."
+        "What the analysis found",
+        "The best campaigns showed roughly 3.0–4.0× returns, suggesting we were underspending. Although the strategy had emphasized high-revenue accounts, around 95% of measured return came from accounts with less than 60% share."
       ],
       [
-        "Results",
-        "Localization cycle time fell from five months to one week. Cost per asset decreased by more than 80%, with 40 hours saved per campaign and near-100% global adoption."
+        "How it changed decisions",
+        "Campaign-level measurement had previously been difficult, and resource allocation relied heavily on judgment. The analysis supported a larger marketing budget and helped redirect advertising spend toward account segments with more room to grow."
       ]
-    ]
+    ],
+    "provenance": "Findings and project scope are described by the portfolio owner. The interactive campaign examples use synthetic values and do not run the original models."
   }
 ];
