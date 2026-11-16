@@ -6,10 +6,13 @@ Personal portfolio with academic projects, work-project overviews, and an intera
 
 - `index.html`: background, education, contact details, and page structure.
 - `projects.js`: project summaries, visible outcomes, source links, and diagram thumbnails.
+- `sales-demo.js`: the synthetic sales-account illustration and interactive filters.
 - `learning.js`: the local campaign ROI regression demonstration.
 - `styles.css`: typography, color, and responsive layout.
-- `assets/`: original saved notebook figures shown inside case studies.
+- `assets/`: saved notebook figures and illustrative project artwork.
 
 This site uses plain HTML, CSS, and JavaScript. No installation or build is required. GitHub Pages publishes the root of `main`; `.nojekyll` serves the files directly.
 
-Academic summaries link to their source notebooks. The composer project is currently scoped to data preparation and feature extraction. Work-project overviews use accomplishments documented in the owner's resume. Their diagrams are illustrative and contain no employer data. The ROI visualization is synthetic and makes no real campaign-performance claim.
+Academic summaries link to their source notebooks. The composer project is currently scoped to data preparation and feature extraction. Work-project overviews use accomplishments described by the owner and documented in their resume. Their diagrams are illustrative and contain no employer data. The ROI visualization is synthetic and makes no real campaign-performance claim.
+
+The sales project illustrates source data flowing through Snowflake and an API to a rep-specific account view. The owner reports 100 sales-rep users and full implementation ownership. The public example contains two fictional reps, six accounts, twelve doctors, and 48 synthetic events. Representative switching and account, doctor, and channel filters operate locally; this is an illustration, with no authentication or live Snowflake connection.

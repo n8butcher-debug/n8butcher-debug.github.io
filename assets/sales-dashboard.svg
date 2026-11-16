@@ -1,0 +1,14 @@
+<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Separate data sources flowing through Snowflake and an API to a sales account dashboard">
+  <rect width="700" height="400" fill="#dce5f5"/>
+  <defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#bfcee5" stroke-width=".5"/></pattern></defs>
+  <rect x="45" y="74" width="610" height="250" fill="url(#grid)"/>
+  <g stroke="#a1b4d4" fill="none" stroke-width="1.5"><path d="M159 126h30v74h44M159 200h74M159 274h30v-74M335 200h50M440 200h40"/><path d="m225 195 8 5-8 5m152-5 8 5-8 5m55-5 8 5-8 5"/></g>
+  <g fill="#f5f8fe" stroke="#b2c4e0"><rect x="58" y="104" width="101" height="44" rx="4"/><rect x="58" y="178" width="101" height="44" rx="4"/><rect x="58" y="252" width="101" height="44" rx="4"/>
+  <path d="M233 164v71c0 25 102 25 102 0v-71Z"/><ellipse cx="284" cy="164" rx="51" ry="17"/><path d="M233 199c0 24 102 24 102 0" fill="none"/>
+  <rect x="385" y="173" width="55" height="54" rx="6"/><rect x="480" y="115" width="164" height="170" rx="6"/></g>
+  <g stroke="#a0b5d7" fill="none" stroke-width="1.5"><path d="M480 143h164M526 143v142M493 158h20m-20 12h16m-16 12h20m-20 12h16M540 165h84m-84 32h84m-84 32h84m-84 32h84"/></g>
+  <g fill="#2849dc"><rect x="487" y="200" width="33" height="21" rx="2"/><circle cx="548" cy="179" r="4"/><circle cx="548" cy="211" r="4"/><circle cx="548" cy="243" r="4"/></g>
+  <g fill="#a6badd"><rect x="561" y="175" width="48" height="4" rx="2"/><rect x="561" y="207" width="35" height="4" rx="2"/><rect x="561" y="239" width="52" height="4" rx="2"/></g>
+  <g font-family="Arial,sans-serif" font-size="11" fill="#536b93" text-anchor="middle"><text x="108" y="131">Accounts</text><text x="108" y="205">Doctors</text><text x="108" y="279">Channel activity</text><text x="284" y="291">Snowflake</text><text x="412" y="205">API</text><text x="562" y="319">Rep account view</text></g>
+  <g font-family="Arial,sans-serif" font-size="10" fill="#657492"><text x="58" y="48">Disconnected sources, connected account history</text></g>
+</svg>

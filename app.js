@@ -28,7 +28,8 @@ grid.addEventListener('click', e => {
   lastProject = button;
   document.querySelector('#dialog-context').textContent = p.repo ? 'Academic project' : 'Work project';
   const sections = p.sections || [['The question',p.question],['The method',p.method],['The evidence',p.evidence],['The next iteration',p.next]];
-  document.querySelector('#dialog-content').innerHTML = `<h2 id="dialog-title" class="dialog-title">${escapeHtml(p.title)}</h2><p class="dialog-intro">${escapeHtml(p.description)}</p>${projectOutcome(p)}${p.repo ? `<a class="repo-link" href="${escapeHtml(p.repo)}" target="_blank" rel="noopener noreferrer">View project on GitHub ↗</a>` : ''}<div class="dialog-art">${projectArt(p, 'dialog')}</div>${p.imageCaption ? `<p class="figure-caption">${escapeHtml(p.imageCaption)}</p>` : ''}<div class="dossier-grid">${sections.map(([title,body]) => `<section><h3>${escapeHtml(title)}</h3><p>${escapeHtml(body)}</p></section>`).join('')}</div><p class="project-note">${escapeHtml(p.provenance)}</p>`;
+  document.querySelector('#dialog-content').innerHTML = `<h2 id="dialog-title" class="dialog-title">${escapeHtml(p.title)}</h2><p class="dialog-intro">${escapeHtml(p.description)}</p>${projectOutcome(p)}${p.repo ? `<a class="repo-link" href="${escapeHtml(p.repo)}" target="_blank" rel="noopener noreferrer">View project on GitHub ↗</a>` : ''}${p.demo === 'sales' ? '<section id="sales-demo" aria-label="Illustrative sales account dashboard"></section>' : `<div class="dialog-art">${projectArt(p, 'dialog')}</div>${p.imageCaption ? `<p class="figure-caption">${escapeHtml(p.imageCaption)}</p>` : ''}`}<div class="dossier-grid">${sections.map(([title,body]) => `<section><h3>${escapeHtml(title)}</h3><p>${escapeHtml(body)}</p></section>`).join('')}</div><p class="project-note">${escapeHtml(p.provenance)}</p>`;
+  if (p.demo === 'sales') SalesDemo.mount(document.querySelector('#sales-demo'));
   dialog.showModal();
   dialog.scrollTop = 0;
 });

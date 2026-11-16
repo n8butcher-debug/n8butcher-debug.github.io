@@ -6,7 +6,7 @@ const visuals = {
   data: `<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustrative content workflow"><rect width="700" height="400" fill="#e2e9f6"/><g stroke="#a8b9d8" stroke-width="1.5" fill="none"><path d="M155 202H220M290 202H355M425 202H490"/><path d="m211 197 9 5-9 5m135-10 9 5-9 5m135-10 9 5-9 5"/></g><g fill="#f9fbff" stroke="#c4d2e9"><rect x="65" y="145" width="90" height="114" rx="7"/><rect x="220" y="145" width="90" height="114" rx="7"/><rect x="375" y="145" width="90" height="114" rx="7"/><rect x="530" y="145" width="90" height="114" rx="7"/></g><g stroke="#a5b7d9" stroke-width="3"><path d="M84 168h48m-48 12h39m-39 12h46M239 168h48m-48 12h39m-39 12h46M394 168h48m-48 12h39m-39 12h46M549 168h48m-48 12h39m-39 12h46"/></g><g fill="#2849dc"><circle cx="132" cy="236" r="7"/><circle cx="287" cy="236" r="7"/><circle cx="442" cy="236" r="7"/><circle cx="597" cy="236" r="7"/></g><g font-family="Arial,sans-serif" fill="#536b93" font-size="12" text-anchor="middle"><text x="110" y="290">Sample input</text><text x="265" y="290">Draft</text><text x="420" y="290">Checks</text><text x="575" y="290">Human review</text></g><g font-family="Arial,sans-serif" font-size="10" fill="#657492"><text x="40" y="55">Illustrative content workflow</text><text x="40" y="365">Illustration only / no internal content</text></g></svg>`
 };
 
-// Academic entries are grounded in public notebooks; applied entries remain concepts.
+// Academic entries use published notebooks. Work illustrations use synthetic records.
 visuals.composerCover = `<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Stylized piano-roll diagram illustrating music as model inputs"><rect width="700" height="400" fill="#dce5f5"/><defs><pattern id="notesgrid" width="35" height="23" patternUnits="userSpaceOnUse"><path d="M35 0H0V23" stroke="#bdcce5" fill="none" stroke-width=".6"/></pattern></defs><rect x="124" y="85" width="498" height="235" fill="url(#notesgrid)"/><g stroke="#9db0d0" fill="none"><path d="M124 85V320H622"/></g><g fill="#8fa8d0"><path d="M134 260h55v12h-55ZM194 237h40v12h-40ZM243 214h65v12h-65ZM318 191h40v12h-40ZM366 168h55v12h-55ZM431 191h40v12h-40ZM480 214h60v12h-60ZM548 191h48v12h-48Z"/></g><g fill="#2849dc"><path d="M140 191h33v12h-33ZM183 168h54v12h-54ZM246 145h33v12h-33ZM289 168h49v12h-49ZM347 145h38v12h-38ZM394 122h54v12h-54ZM458 145h38v12h-38ZM506 168h30v12h-30ZM547 145h56v12h-56Z"/></g><g fill="#f7faff" stroke="#acbfdd"><rect x="76" y="85" width="40" height="23"/><rect x="76" y="108" width="40" height="23"/><rect x="76" y="131" width="40" height="23"/><rect x="76" y="154" width="40" height="23"/><rect x="76" y="177" width="40" height="23"/><rect x="76" y="200" width="40" height="23"/><rect x="76" y="223" width="40" height="23"/><rect x="76" y="246" width="40" height="23"/><rect x="76" y="269" width="40" height="23"/><rect x="76" y="292" width="40" height="28"/></g><g fill="#657ea9"><path d="M76 101h24v13H76ZM76 124h24v13H76ZM76 170h24v13H76ZM76 193h24v13H76ZM76 216h24v13H76ZM76 262h24v13H76ZM76 285h24v13H76Z"/></g><g font-family="Arial,sans-serif" font-size="10" fill="#657492"><text x="76" y="53">Music as model inputs</text><text x="351" y="351">Time</text><text transform="translate(48 219) rotate(-90)">Pitch</text></g></svg>`;
 visuals.advertisingCover = `<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Illustrative ad-click classification diagram"><rect width="700" height="400" fill="#e1e8f6"/><defs><pattern id="clickgrid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" fill="none" stroke="#c6d2e7" stroke-width=".6"/></pattern></defs><rect x="90" y="85" width="520" height="230" fill="url(#clickgrid)"/><path d="M90 290C210 300 230 190 335 200S470 135 610 100" fill="none" stroke="#2849dc" stroke-width="2.5"/><path d="M90 310C210 320 230 210 335 220S470 155 610 120" fill="none" stroke="#a3b4d5"/><g fill="#2849dc"><circle cx="138" cy="251" r="5"/><circle cx="179" cy="212" r="5"/><circle cx="221" cy="233" r="5"/><circle cx="245" cy="172" r="5"/><circle cx="290" cy="141" r="5"/><circle cx="328" cy="177" r="5"/><circle cx="377" cy="152" r="5"/><circle cx="413" cy="110" r="5"/><circle cx="465" cy="120" r="5"/><circle cx="515" cy="99" r="5"/><circle cx="559" cy="91" r="5"/></g><g fill="#91a8ce"><circle cx="142" cy="308" r="5"/><circle cx="211" cy="283" r="5"/><circle cx="255" cy="274" r="5"/><circle cx="307" cy="252" r="5"/><circle cx="347" cy="289" r="5"/><circle cx="389" cy="235" r="5"/><circle cx="438" cy="260" r="5"/><circle cx="473" cy="204" r="5"/><circle cx="514" cy="242" r="5"/><circle cx="555" cy="186" r="5"/><circle cx="591" cy="219" r="5"/></g><g font-family="Arial,sans-serif" font-size="10" fill="#657492"><text x="90" y="53">Click prediction</text><text x="90" y="350">Illustrative feature space</text></g></svg>`;
 visuals.plantCover = `<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram of a leaf image passing through CNN features to species predictions"><rect width="700" height="400" fill="#dce5f5"/><path d="M114 283C60 212 94 126 207 97 236 202 210 280 114 283Z" fill="#bccde8" stroke="#718dbb" stroke-width="1.5"/><g stroke="#718dbb" fill="none" stroke-width="1.3"><path d="M101 310 190 123M125 263l-28-31M139 233l-34-43M152 205l-22-44M126 263l55-9M139 233l62-13M153 204l51-11"/></g><g fill="none" stroke="#9fb4d6"><path d="M239 205H296M444 205H490M286 198l10 7-10 7M480 198l10 7-10 7"/></g><g fill="#f1f5fd" stroke="#a8bcdd"><rect x="311" y="132" width="95" height="119" rx="3"/><rect x="322" y="143" width="95" height="119" rx="3"/><rect x="333" y="154" width="95" height="119" rx="3"/></g><g fill="#b6c8e5"><path d="M346 168h19v19h-19ZM370 168h19v19h-19ZM394 168h19v19h-19ZM346 192h19v19h-19ZM394 192h19v19h-19ZM346 216h19v19h-19ZM370 216h19v19h-19ZM394 216h19v19h-19ZM370 240h19v19h-19Z"/></g><g fill="#2849dc"><path d="M370 192h19v19h-19ZM346 240h19v19h-19Z"/><rect x="514" y="153" width="84" height="15" rx="2"/></g><g fill="#9bb2d7"><rect x="514" y="183" width="51" height="15" rx="2"/><rect x="514" y="213" width="31" height="15" rx="2"/><rect x="514" y="243" width="17" height="15" rx="2"/></g><g font-family="Arial,sans-serif" font-size="10" fill="#657492"><text x="91" y="53">From image to classification</text><text x="118" y="347">Leaf image</text><text x="330" y="347">CNN features</text><text x="518" y="347">Species</text></g></svg>`;
@@ -90,40 +90,42 @@ const projects = [
     }
   },
   {
-    "id": "campaign-response",
-    "title": "Machine Learning for Campaign Performance",
+    "id": "sales-dashboard",
+    "title": "Snowflake Sales Engagement Dashboard",
     "category": "work",
     "kind": "Work project",
     "tags": [
-      "Machine learning",
-      "Marketing analytics",
-      "Subject-line optimization"
+      "Snowflake",
+      "Data streams",
+      "API integration"
     ],
-    "visual": "signals",
-    "description": "Built machine-learning models for email subject-line optimization and campaign analysis, connecting performance metrics to revenue outcomes.",
-    "provenance": "Work overview. The signal plot is illustrative and contains no employer data or measured model scores.",
+    "image": "assets/sales-dashboard.svg",
+    "imageAlt": "Separate account, doctor, and channel data flowing through Snowflake and an API into a sales dashboard.",
+    "description": "Streamed separate data sources into Snowflake and built an API-fed dashboard for account, doctor, channel, and asset activity.",
     "outcome": {
-      "headline": "Campaign performance models in use",
-      "detail": "Support content, channel, and investment decisions."
+      "headline": "Used by 100 sales reps",
+      "detail": "Each rep can explore their accounts and the engagement behind them."
     },
+    "demo": "sales",
     "sections": [
       [
-        "What I built",
-        "Machine-learning models for subject-line optimization and marketing performance analysis. The work connects email and campaign performance metrics to revenue outcomes and supports decisions about content, channels, and investment."
+        "Data integration",
+        "I connected separate data sources through data streams into Snowflake, bringing account information, doctor records, channel exposure, interactions, and asset details into a common data layer."
       ],
       [
-        "Data and model outputs",
-        "Email and campaign performance data provide the marketing signals. The models help evaluate subject-line performance and connect campaign activity with revenue outcomes. Their outputs feed content, channel, and budget planning."
+        "API and account access",
+        "The dashboard calls an API to retrieve the data from Snowflake. Reps sign in, see their accounts, and open an account to inspect its doctors and engagement history."
       ],
       [
-        "Product delivery",
-        "I owned internal AI-tool delivery from problem definition and requirements through pilot, launch, and iteration. This included user stories, acceptance criteria, success metrics, and rollout plans with technical and regional stakeholders."
+        "What the account view reveals",
+        "The dashboard brings together who was reached, which channels they encountered, what they interacted with, and the assets involved. Reps can review that history at the account and doctor level."
       ],
       [
-        "Use in practice",
-        "The models guide marketing decisions. Performance measurement, responsible-use standards, and adoption planning are part of the broader AI and MarTech program I lead."
+        "My role and delivery",
+        "I built the full solution: data connections, Snowflake integration, API integration, and dashboard. It is used by 100 sales reps."
       ]
-    ]
+    ],
+    "provenance": "The interactive illustration uses fictional reps, accounts, doctors, and activity. It illustrates the workflow locally without connecting to employer systems."
   },
   {
     "id": "leaf-classification",
