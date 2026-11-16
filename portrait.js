@@ -17,9 +17,9 @@
     const ease=t=>t*t*(3-2*t);
     function tick(now){
       const elapsed=now-start;
-      const value=elapsed<2800?100*ease(elapsed/2800):elapsed<4400?100:elapsed<7400?100-70*ease((elapsed-4400)/3000):30;
+      const value=elapsed<2800?100*ease(elapsed/2800):elapsed<3000?100:elapsed<6000?100-70*ease((elapsed-3000)/3000):30;
       amount(value);
-      if(elapsed<7400)scanFrame=requestAnimationFrame(tick);else stop();
+      if(elapsed<6000)scanFrame=requestAnimationFrame(tick);else stop();
     }
     scanFrame=requestAnimationFrame(tick);
   }
