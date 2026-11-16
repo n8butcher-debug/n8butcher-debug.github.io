@@ -196,13 +196,13 @@ const projects = [
       ],
       [
         "What the analysis found",
-        "The best campaigns showed roughly 3.0–4.0× returns, suggesting we were underspending. Although the strategy had emphasized high-revenue accounts, around 95% of measured return came from accounts with less than 60% share."
+        "The best campaigns showed roughly 30–40× returns, suggesting we were underspending. Although the strategy had emphasized high-revenue accounts, around 95% of measured return came from accounts with less than 60% share."
       ],
       [
         "How it changed decisions",
         "Campaign-level measurement had previously been difficult, and resource allocation relied heavily on judgment. The analysis supported a larger marketing budget and helped redirect advertising spend toward account segments with more room to grow."
       ]
     ],
-    "provenance": "Findings and project scope are described by the portfolio owner. The interactive campaign examples use synthetic values and do not run the original models."
+    "provenance": "Project scope and findings are described by the portfolio owner."
   }
 ];
