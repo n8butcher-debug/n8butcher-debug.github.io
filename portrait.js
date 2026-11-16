@@ -13,7 +13,7 @@
     const ease=t=>t*t*(3-2*t);
     function tick(now){
       const elapsed=now-start;
-      const value=elapsed<2800?100*ease(elapsed/2800):elapsed<4400?100:elapsed<7400?100-65*ease((elapsed-4400)/3000):35;
+      const value=elapsed<2800?100*ease(elapsed/2800):elapsed<4400?100:elapsed<7400?100-50*ease((elapsed-4400)/3000):50;
       amount(value);
       if(elapsed<7400)scanFrame=requestAnimationFrame(tick);else stop();
     }
@@ -41,7 +41,7 @@
       ctx.strokeStyle=`rgba(109,225,234,${.07+light*.13})`;
       for(const [dx,dy] of [[7,0],[0,7]])if(source.data[((y+dy)*width+x+dx)*4+3]>150){ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x+dx,y+dy);ctx.stroke();}
     }
-    card.classList.add('portrait-ready');if(motion.matches)amount(35);else scan();
+    card.classList.add('portrait-ready');if(motion.matches)amount(50);else scan();
   }
   if(photo.complete&&photo.naturalWidth)prepare();else photo.addEventListener('load',prepare,{once:true});
   card.addEventListener('pointermove',e=>{
@@ -57,6 +57,6 @@
   card.addEventListener('pointerleave',reset);window.addEventListener('resize',reset);
   slider.addEventListener('input',()=>{stop();amount(Number(slider.value));});
   replay.addEventListener('click',scan);
-  motion.addEventListener('change',()=>{stop();reset();replay.hidden=motion.matches;amount(35);});
+  motion.addEventListener('change',()=>{stop();reset();replay.hidden=motion.matches;amount(50);});
   replay.hidden=motion.matches;
 })();
