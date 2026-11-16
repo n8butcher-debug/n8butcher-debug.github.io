@@ -13,7 +13,7 @@ Personal portfolio with academic projects, work-project overviews, and an intera
 
 This site uses plain HTML, CSS, and JavaScript. No installation or build is required. GitHub Pages publishes the root of `main`; `.nojekyll` serves the files directly.
 
-Academic summaries link to their source notebooks. The composer project is currently scoped to data preparation and feature extraction. Work-project overviews use accomplishments described by the owner and documented in their resume. Their diagrams are illustrative and contain no employer data. The portrait hero uses an AI-extracted cutout of the owner's headshot, a single contour scan, and pointer-driven depth. Reduced motion disables these effects.
+Academic summaries link to their source notebooks. The composer project is currently scoped to data preparation and feature extraction. Work-project overviews use accomplishments described by the owner and documented in their resume. Their diagrams are illustrative and contain no employer data. The portrait hero uses an AI-extracted cutout of the owner's headshot, a scan into a cyan point-and-contour feature view, a manual transformation slider, and pointer-driven depth. Reduced motion disables automatic animation.
 
 The sales project illustrates source data flowing through Snowflake and an API to a rep-specific account view. The owner reports 100 sales-rep users and full implementation ownership. The public example contains two fictional reps, six accounts, twelve doctors, and 59 synthetic activity records with per-record counts. Representative switching and account, doctor, and channel filters operate locally; this is an illustration, with no authentication or live Snowflake connection.
 
