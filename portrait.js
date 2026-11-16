@@ -41,12 +41,13 @@
       const gy=-gray[i-width-1]-2*gray[i-width]-gray[i-width+1]+gray[i+width-1]+2*gray[i+width]+gray[i+width+1];
       const mouth=Math.exp(-2*(((x/width-.53)/.18)**2+((y/height-.49)/.085)**2));
       const edge=Math.min(.65,Math.max(0,Math.hypot(gx,gy)-35)/220)*(1-mouth*.98);
-      out.data[i*4]=18+gray[i]*.10+edge*70;out.data[i*4+1]=40+gray[i]*.16+edge*110;out.data[i*4+2]=88+gray[i]*.22+edge*90;out.data[i*4+3]=alpha;
+      out.data[i*4]=22+gray[i]*.12+edge*90;out.data[i*4+1]=54+gray[i]*.22+edge*150;out.data[i*4+2]=112+gray[i]*.28+edge*120;out.data[i*4+3]=alpha;
     }
     ctx.putImageData(out,0,0);ctx.lineWidth=.45;
     for(let y=9;y<height-9;y+=9)for(let x=9;x<width-9;x+=9){
       const i=y*width+x;if(source.data[i*4+3]<150)continue;
-      const light=gray[i]/255;ctx.fillStyle=`rgba(166,255,236,${.18+light*.25})`;
+      const light=gray[i]/255,mouth=Math.exp(-2*(((x/width-.53)/.18)**2+((y/height-.49)/.085)**2));
+      ctx.fillStyle=`rgba(166,255,236,${(.28+light*.32)*(1-mouth*.65)})`;
       ctx.beginPath();ctx.arc(x,y,.6+light*.4,0,Math.PI*2);ctx.fill();
       ctx.strokeStyle=`rgba(109,225,234,${.04+light*.07})`;
       for(const [dx,dy] of [[9,0],[0,9]])if(source.data[((y+dy)*width+x+dx)*4+3]>150){ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(x+dx,y+dy);ctx.stroke();}
