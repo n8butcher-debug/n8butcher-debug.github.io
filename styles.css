@@ -77,3 +77,5 @@ dialog{width:min(930px,94vw);max-height:90vh;background:white;border:0;border-ra
 
 .portrait-subject{left:calc(-7.5% - 22px);right:calc(-7.5% + 22px)}@media(max-width:480px){.portrait-subject{left:calc(-15% - 14px);right:calc(-15% + 14px)}}
 .portrait-controls input:focus-visible{outline-color:white}
+
+.portrait-subject{top:4%;bottom:auto;left:-6px;right:auto;width:calc(100% + 12px);height:calc(100% + 24px)}@media(max-width:480px){.portrait-subject{top:9%;bottom:auto;left:-40px;right:auto;width:calc(100% + 80px);height:calc(100% - 25px)}}
